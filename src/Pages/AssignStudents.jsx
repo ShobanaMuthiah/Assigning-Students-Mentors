@@ -86,7 +86,7 @@ const AssignStudents = ({ id }) => {
                             value={studentId}
                             onChange={(e) => handleChange(e, index)}
                         />
-                        <button type="button" className='btn' onClick={() => removeInputBox(index)}>-</button>
+                        <button type="button" className='btn fw-3' onClick={() => removeInputBox(index)}>-</button>
                     </div>
                 ))}
 

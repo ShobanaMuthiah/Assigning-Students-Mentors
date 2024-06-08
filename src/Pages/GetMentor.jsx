@@ -56,16 +56,16 @@ await axios.delete(`https://assigning-student-mentor-db.onrender.com/api/mentord
                         )
                         })}
                 </td>
-                <td><button className='btn btn-warning 'onClick={()=>{handleEdit(e._id)}}>edit</button></td>
+                <td><button className='btn btn-warning 'onClick={()=>{handleEdit(e._id)}}>Assign Student</button></td>
 
-                <td><button className='btn btn-danger ' onClick={()=>{handleDelete(e._id)}}>delete</button></td>
+                <td><button className='btn btn-danger ' onClick={()=>{handleDelete(e._id)}}>Remove Mentor</button></td>
 
                 </tr>
             )
            })}
     </tbody>
   </table>
-<button className='btn btn-success m-4'onClick={()=>{navig('/create')}}>create</button>
+<button className='btn btn-success m-4'onClick={()=>{navig('/create')}}>Add Mentor</button>
 </div>
 
       
