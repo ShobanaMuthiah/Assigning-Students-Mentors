@@ -1,3 +1,15 @@
+=> This project is used to assign mentors to students and students to mentors
+## Pages:
+##### Home
+##### Create Mentor
+##### Create Student
+##### View Mentors
+##### View Students
+##### Students Without Mentor
+##### Assigning Mentors
+##### Assigning Students
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
